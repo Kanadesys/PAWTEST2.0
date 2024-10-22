@@ -12,7 +12,8 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "mongoose": "^8.7.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.2",
     "mongoose-unique-validator": "^5.0.0",
     "morgan": "~1.9.1"
   }
