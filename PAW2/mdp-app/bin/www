@@ -88,5 +88,5 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 
-console.log(`Server is runing on https://localhost:${port}`);
+console.log(`Server is runing on http://localhost:${port}`);
 }

@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-md-6">
+        <form id="contactForm">
+            <!-- Name Field -->
+             <div class="form-group mb-2">
+             </div>
+
+             <!-- Email Field -->
+             <div class="form-group mb-2">
+             </div>
+
+             <!-- Subject Field -->
+             <div class="form-group mb-2">
+             </div>
+
+             <!-- Message Field -->
+             <div class="form-group mb-2">
+             </div>
+
+             <!-- Submit Field -->
+             <button type="submit" class="btn btn-primary btn-block">
+                Send Message
+             </button>
+        </form>
+    </div>
+</div>
+
+<h1> contact us</h1>
+<p>ini halaman contact us</p>
+<ul id="contactList">
+    <li><a href="/">home</a></li>
+    <li><a href="/about">about</a></li>
+    <li><a href="/contact">contact</a></li>
+</ul>
+
+<script>
+    //Simpan data ke localStorage ketika tombol submit ditekan
+    document
+        .getElementById("contactForm")
+        .addEventListener("submit", function(e) {
+            e.preventDefault(); //Agar form tidak reload halaman setelah submit
+
+            //Ambil nilai dari input
+            const nama = document.getElementById("nama").value;
+            const email = document.getElementById("email").value;
+            const subject = document.getElementById("subject").value;
+            const message = document.getElementById("message").value;
+
+            // Ambil daftar kontak lama dari localStorage
+        })
+</script>
